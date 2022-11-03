@@ -18,7 +18,7 @@ Install `npm install --save-dev webpack-dev-server` and add necessary configurat
 
 ## Project ToDo
 
-- Make the landing page in index.js
-- Move the landing page to another file and import it in index.js
-- Create files/modules for each tab : landing, menu, contact.
-- Create the logic in index.js
+- [x] Make the landing page in index.js
+- [] Move the landing page to another file and import it in index.js
+- [] Create files/modules for each tab : landing, menu, contact.
+- [] Create the logic in index.js
