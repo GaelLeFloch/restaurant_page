@@ -23,6 +23,6 @@ Making multiple modules/script allow the browser to execute only the needed ones
 ## Project ToDo
 
 - [x] Make the landing page in index.js
-- [] Move the landing page to another file and import it in index.js
-- [] Create files/modules for each tab : landing, menu, contact.
-- [] Create the logic in index.js
+- [x] Move the landing page to another file and import it in index.js
+- [x] Create files/modules for each tab : landing, menu, contact.
+- [x] Create the logic in index.js

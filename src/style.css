@@ -9,6 +9,28 @@
 .tabs {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+    transition: background 2s;
+    height: 100px;
+    /* background: linear-gradient(to right, grey 33%, white 33% 66%, white 66% 100%); */
+}
+
+.tabs > h2 {
+    height: 70px;
+}
+
+.tabs > h2 > a {
+    cursor: pointer;
+}
+
+#transi {
+    width: 60%;
+    height: 4%;
+    background: grey;
+    z-index:-1;
+    bottom: 75px;
+    position: relative;
+    margin-left: 20%;
+    transition: margin-left 0.75s ease-out;
 }
 
 /* ------ Landing ------ */
@@ -35,6 +57,14 @@ img {
 
 .header {
     text-align: center;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.landing > .text {
+    padding: 30px 30px;
 }
 
 
