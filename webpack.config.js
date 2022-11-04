@@ -5,6 +5,7 @@ module.exports = {
         index: './src/index.js',
         landing: './src/landing.js',
         menu: './src/menu.js',
+        contact: './src/contact.js',
     },
     devtool: 'inline-source-map',
     devServer: {
