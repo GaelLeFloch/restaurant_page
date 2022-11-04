@@ -20,6 +20,16 @@ Install `npm install --save-dev webpack-dev-server` and add necessary configurat
 
 Making multiple modules/script allow the browser to execute only the needed ones and reduce the load.
 
+### Add it to github pages
+
+source : https://gist.github.com/cobyism/4730490
+
+Add the dist folder to github
+
+Then add a branch containing the dist folder :
+
+`git subtree push --prefix dist origin gh-pages`
+
 ## Project ToDo
 
 - [x] Make the landing page in index.js
