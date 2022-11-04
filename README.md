@@ -16,6 +16,10 @@ Create a webpack configuration file.
 
 Install `npm install --save-dev webpack-dev-server` and add necessary configurations.
 
+## Information
+
+Making multiple modules/script allow the browser to execute only the needed ones and reduce the load.
+
 ## Project ToDo
 
 - [x] Make the landing page in index.js

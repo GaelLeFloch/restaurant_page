@@ -4,6 +4,13 @@
     margin: auto;
 }
 
+/* ------ menubar ------ */
+
+.tabs {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
 /* ------ Landing ------ */
 
 .landing {
@@ -30,9 +37,25 @@ img {
     text-align: center;
 }
 
-/* ------ menubar ------ */
+
+/* ------ Menu ------ */
 
 .menu {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+}
+
+/* ------ Contact ------ */
+
+.contact {
+    text-align: center;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.contact > input {
+    margin: 20px auto;
+    width: 60%;
 }
